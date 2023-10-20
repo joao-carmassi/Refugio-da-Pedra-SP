@@ -1,0 +1,82 @@
+.video-pousada {
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    width: 150%;
+    left: -40px;
+}
+
+.container-video {
+    height: 50vh;
+}
+
+.container-video__logo {
+    width: 125px;
+}
+
+.container-logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+}
+
+.nome-pousada {
+    color: var(--cor-fonte);
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    border-radius: 50px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin: .3em 0;
+}
+
+/* Botao "Reservar" */
+
+.btn {
+    border: none;
+    width: 10em;
+    height: 3.35em;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    -webkit-box-shadow: 0px 0px 22px 9px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0px 0px 22px 9px rgba(0, 0, 0, 0.34);
+    box-shadow: 0px 0px 22px 9px rgba(0, 0, 0, 0.34);
+}
+
+.sparkle {
+    fill: black;
+    transition: all 800ms ease;
+}
+
+.text {
+    position: relative;
+    top: 2.5px;
+    font-family: 'soria';
+    font-weight: 600;
+    color: black;
+    font-size: 1.35em;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+    background: linear-gradient(180deg, #F57D15, #F4CF15);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+        inset 0px -4px 0px 0px rgba(255, 68, 0, 0.512);
+    transform: translateY(-2px);
+}
+
+.btn:hover .text {
+    color: white;
+}
+
+.btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+}

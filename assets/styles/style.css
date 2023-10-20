@@ -1,13 +1,29 @@
 @import url(./nav.css);
+@import url(./container1.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
     font-family: 'soria';
-    src: url(../fonts/soria-font.ttf) format(truetype);
+    src: url(../fonts/soria-font.ttf) format(truetype), url(../fonts/Vercetti-Regular.otf) format(opentype);
+}
+@font-face {
+    font-family: 'vercetti';
+    src: url(../fonts/Vercetti-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'summer';
+    src: url(../fonts/Summer\ Dream\ Sans\ DEMO\ .ttf) format(truetype);
 }
 
 :root {
-    --fonte-titulo: ;
-    --fonte-conteudo: ;
+    --fonte-titulo: 'soria';
+    --fonte-conteudo: 'vercetti';
 
     --cor-principal: black;
     --cor-destaque: #F4CE14;
+    --cor-fonte: white;
+}
+
+body {
+    font-family: 'soria';
+    letter-spacing: .1em;
 }

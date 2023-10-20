@@ -1,134 +1,33 @@
 .nav-container {
-    padding: 5% 6%;
+    padding: 6% 6%;
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-}
-
-/* Menu Hamburguer */
-
-.burger {
-    position: relative;
-    width: 40px;
-    height: 30px;
-    background: transparent;
-    cursor: pointer;
-    display: block;
-}
-
-.burger input {
-    display: none;
-}
-
-.burger span {
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: white;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-}
-
-.burger span:nth-of-type(1) {
-    top: 0px;
-    transform-origin: left center;
-}
-
-.burger span:nth-of-type(2) {
-    top: 50%;
-    transform: translateY(-50%);
-    transform-origin: left center;
-}
-
-.burger span:nth-of-type(3) {
-    top: 100%;
-    transform-origin: left center;
-    transform: translateY(-100%);
-}
-
-.burger input:checked~span:nth-of-type(1) {
-    transform: rotate(45deg);
-    top: 0px;
-    left: 5px;
-}
-
-.burger input:checked~span:nth-of-type(2) {
-    width: 0%;
-    opacity: 0;
-}
-
-.burger input:checked~span:nth-of-type(3) {
-    transform: rotate(-45deg);
-    top: 28px;
-    left: 5px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.75);
 }
 
 .nav-menu-hamburguer-lista {
-    display: none;
-}
-
-.nav-menu-hamburguer-lista__itens {
-    background-color: #212121;
-    width: 40%;
-    padding: 6% 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
 }
 
 .nav-menu-hamburguer-lista__item {
     text-decoration: none;
-    color: black;
-}
-
-/* Botao "Reservar" */
-
-.btn {
-    border: none;
-    width: 10em;
-    height: 3.35em;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    background: white;
-    cursor: pointer;
-    transition: all 450ms ease-in-out;
-}
-
-.sparkle {
-    fill: black;
-    transition: all 800ms ease;
-}
-
-.text {
+    color: var(--cor-fonte);
+    font-size: 1em;
+    font-weight: 200px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
-    top: 2.5px;
-    font-family: 'soria';
-    font-weight: 600;
-    color: black;
-    font-size: 1.35em;
-    letter-spacing: .1em;
+    top: 3px;
+    transition-duration: 0.5s;
 }
 
-.btn:hover {
-    background: linear-gradient(180deg, #F57D15, #F4CF15);
-    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
-        inset 0px -4px 0px 0px rgba(255, 68, 0, 0.512),
-        0px 0px 180px 0px var(--cor-destaque);
-    transform: translateY(-2px);
-}
-
-.btn:hover .text {
-    color: white;
-}
-
-.btn:hover .sparkle {
-    fill: white;
-    transform: scale(1.2);
+.nav-menu-hamburguer-lista__item:hover {
+    color: var(--cor-destaque);
 }
