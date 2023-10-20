@@ -1,6 +1,13 @@
 @import url(./nav.css);
+@font-face {
+    font-family: 'soria';
+    src: url(../fonts/soria-font.ttf) format(truetype);
+}
 
 :root {
-    --fonte-titulo: 
-    --fonte-titulo: 
+    --fonte-titulo: ;
+    --fonte-conteudo: ;
+
+    --cor-principal: black;
+    --cor-destaque: #F4CE14;
 }
