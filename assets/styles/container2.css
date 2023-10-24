@@ -1,0 +1,25 @@
+.container2 {
+    height: 100vh;
+    color: var(--cor-fonte);
+    font-family: var(--fonte-conteudo);
+    background: #010101;
+    background: linear-gradient(135deg, #010101, #202020);
+}
+
+.container2 div {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    top: 2.3rem;
+    width: 70%;
+    background-color: var(--cor-secundaria);
+    border: 1px groove var(--cor-fonte);
+}
+
+.container2 img {
+    margin-bottom: 8%;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 1);
+}

@@ -1,5 +1,6 @@
 @import url(./nav.css);
 @import url(./container1.css);
+@import url(./container2.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
     font-family: 'soria';
@@ -16,9 +17,10 @@
 
 :root {
     --fonte-titulo: 'soria';
-    --fonte-conteudo: 'vercetti';
+    --fonte-conteudo: 'Open Sans', sans-serif;
 
     --cor-principal: black;
+    --cor-secundaria: #111111;
     --cor-destaque: #F4CE14;
     --cor-fonte: white;
 }
@@ -26,4 +28,9 @@
 body {
     font-family: 'soria';
     letter-spacing: .1em;
+    background-color: var(--cor-principal);
+}
+
+hr {
+    margin: 0;
 }

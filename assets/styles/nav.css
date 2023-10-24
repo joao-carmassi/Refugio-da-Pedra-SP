@@ -22,7 +22,7 @@
     font-size: 1em;
     font-weight: 200px;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--fonte-conteudo);
     position: relative;
     top: 3px;
     transition-duration: 0.5s;

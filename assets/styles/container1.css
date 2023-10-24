@@ -1,32 +1,30 @@
 .video-pousada {
-    z-index: -1;
     position: absolute;
+    z-index: -1;
     object-fit: cover;
     width: 150%;
     left: -40px;
 }
 
-.container-video {
-    height: 50vh;
+.logo {
+    width: 40%;
 }
 
-.container-video__logo {
-    width: 125px;
+.container1 article {
+    display: flex;
 }
 
-.container-logo {
-    position: relative;
+.container1-logo {
+    padding: 9.7%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 10%;
 }
 
 .nome-pousada {
     color: var(--cor-fonte);
     font-family: var(--fonte-titulo);
     font-size: 2em;
-    border-radius: 50px;
     text-shadow: 0.1em 0.1em 0.2em black;
     margin: .3em 0;
 }
@@ -37,7 +35,7 @@
     border: none;
     width: 10em;
     height: 3.35em;
-    border-radius: 16px;
+    border-radius: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +55,7 @@
 
 .text {
     position: relative;
-    top: 2.5px;
+    top: 2.2px;
     font-family: 'soria';
     font-weight: 600;
     color: black;
