@@ -69,7 +69,7 @@
     transform: scale(0.9, 0.9);
 } */
 
-.custom-shape-divider-top-1698272199 {
+.custom-shape-divider-top-1698273521 {
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -77,13 +77,13 @@
     margin-top: -1px;
 }
 
-.custom-shape-divider-top-1698272199 svg {
+.custom-shape-divider-top-1698273521 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 47px;
+    height: 35px;
 }
 
-.custom-shape-divider-top-1698272199 .shape-fill {
+.custom-shape-divider-top-1698273521 .shape-fill {
     fill: var(--cor-secundaria);
 }
