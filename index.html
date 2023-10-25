@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="icon" type="png" href="./assets/img/icons/refugio-ico.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Refugio da Pedra SP</title>
 </head>
 
@@ -47,22 +48,40 @@
         </section>
         <hr>
         <section class="container2">
-            <div>
-                <img src="./assets/img/Chales/Pousada/Geral/refugio-116.jpg" alt="#">
+            <div class="container2__conteudo">
+                <!-- <div class="cards">
+                    <img class="card green" src="./assets/img/Chales/Pousada/Geral/refugio-41.jpg" alt="#">
+                    <img class="card green" src="./assets/img/Chales/Pousada/Geral/refugio-116.jpg" alt="#">
+                    <img class="card green" src="./assets/img/Chales/Pousada/Geral/refugio-38.jpg" alt="#">
+                </div> -->
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img class="card green"
+                                src="./assets/img/Chales/Pousada/Geral/refugio-41.jpg" alt="#"></div>
+                        <div class="swiper-slide"><img class="card green"
+                                src="./assets/img/Chales/Pousada/Geral/refugio-116.jpg" alt="#"></div>
+                        <div class="swiper-slide"><img class="card green"
+                                src="./assets/img/Chales/Pousada/Geral/refugio-38.jpg" alt="#"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
                 <h2>Como surgiu o refúgio da Pedra SP.</h2>
                 <h3>
-                    Somos Márcia e Daniel. Conhecemos São Bento do Sapucaí em 1983, e desde então nos apaixonamos por
-                    esta linda cidade. Na primeira semana de namoro, Daniel me trouxe para este paraíso. Éramos de São
-                    Paulo capital. Em 2010, eu, Márcia, Daniel e João Victor, devido a um assalto em nossa casa,
-                    decidimos nos mudar para cá pois sabíamos que aqui encontraríamos a tranquilidade que procurávamos.
-                    Graças ao ocorrido, tivemos que recomeçar a vida em São Bento do Sapucaí com apenas 180 reais no
-                    bolso. Depois de 2 anos morando em São Bento, surgiu a oportunidade de comprar um terreno na montanha. Mesmo com diversas críticas, como "não tem vizinhos por perto", "é muito alto" e "não tem como chegar material lá", a ideia de recomeçar nossa vida ali não saía da cabeça do Daniel. Conseguimos concluir a compra e logo começamos, com as próprias mãos, a trabalhar o terreno. Limpamos muita sujeira e começamos a plantar grama e plantas. A casa principal foi a primeira a ter seu projeto iniciado. Todas as pedras que tínhamos em nosso caminho foram utilizadas para fazer os muros e alicerces de tudo. Aos poucos, iniciamos o projeto dos Chalés, sempre pensando no mais sustentável possível, utilizando madeiras, pedras e móveis antigos. Cada chalé foi pensado e decorado com muito amor e carinho. Desde então, estamos funcionando há mais de 5 anos, com 3 tiny houses, que receberam os nomes de Jade, Esmeralda e Turmalina, e uma suíte que chamamos de Cabana Ametista. Além dos móveis, todo o acabamento em madeira e os painéis de vidro foram idealizados e feitos pelo Daniel.
+                    é foi pensado e decorado com muito amor e carinho. Desde então, estamos funcionando há mais de 5
+                    anos, com 3 tiny houses, que receberam os nomes de Jade, Esmeralda e Turmalina, e uma suíte que
+                    chamamos de Cabana Ametista. Além dos móveis, todo o acabamento em madeira e os painéis de vidro
+                    foram idealizados e feitos pelo Daniel.
             </div>
         </section>
     </main>
 
     <footer></footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         function clickMenu() {
             if (menu.style.display == 'block') {
@@ -72,7 +91,25 @@
                 menu.style.display = 'block'
             }
         }
+
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            centeredSlides: true,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 6000,
+            },
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 </body>
 
