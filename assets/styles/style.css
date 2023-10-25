@@ -31,6 +31,7 @@ body {
     font-family: 'soria';
     letter-spacing: .1em;
     background-color: var(--cor-principal);
+    overflow-x: hidden;
 }
 
 hr {
