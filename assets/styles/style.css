@@ -1,6 +1,7 @@
 @import url(./nav.css);
 @import url(./container1.css);
 @import url(./container2.css);
+@import url(./container3.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
     font-family: 'soria';
@@ -21,8 +22,9 @@
 
     --cor-principal: black;
     --cor-secundaria: #111111;
-    --cor-destaque: #F4CE14;
+    --cor-destaque: #a78d0d;
     --cor-fonte: white;
+    --swiper-navigation-color: var(--cor-destaque);
 }
 
 body {
