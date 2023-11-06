@@ -16,6 +16,10 @@
     src: url(../fonts/Summer\ Dream\ Sans\ DEMO\ .ttf) format(truetype);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --fonte-titulo: 'soria';
     --fonte-conteudo: 'Open Sans', sans-serif;
@@ -31,7 +35,6 @@ body {
     font-family: 'soria';
     letter-spacing: .1em;
     background-color: var(--cor-principal);
-    overflow-x: hidden;
 }
 
 hr {
