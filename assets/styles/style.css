@@ -2,6 +2,7 @@
 @import url(./container1.css);
 @import url(./container2.css);
 @import url(./container3.css);
+@import url(./chales-container1.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @font-face {
     font-family: 'soria';
@@ -32,9 +33,10 @@
 }
 
 body {
-    font-family: 'soria';
+    font-family: 'Open Sans';
     letter-spacing: .1em;
     background-color: var(--cor-principal);
+    color: var(--cor-fonte);
 }
 
 hr {

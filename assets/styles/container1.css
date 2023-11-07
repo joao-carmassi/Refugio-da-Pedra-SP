@@ -21,7 +21,6 @@
 }
 
 .nome-pousada {
-    color: var(--cor-fonte);
     font-family: var(--fonte-titulo);
     font-size: 2em;
     text-shadow: 0.1em 0.1em 0.2em black;

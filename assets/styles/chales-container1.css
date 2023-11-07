@@ -1,0 +1,48 @@
+.chales-container1 {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(128deg, rgba(0, 0, 0, 1) 0%, rgba(31, 24, 0, 1) 100%);
+    padding-bottom: .1%;
+}
+
+.chales-container1 p {
+    width: 85%;
+    padding: 0;
+    text-align: justify;
+    margin: 0 auto;
+    line-height: normal;
+}
+
+.chales-container1 div {
+    width: 90%;
+    margin: 6% auto 10% auto;
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-fonte);
+    border-radius: 8px;
+}
+
+.chales-container1 div:nth-child(4) {
+    margin-bottom: 5%;
+}
+
+.chales-container1 img {
+    width: 90%;
+    -webkit-box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 21px 4px rgba(0, 0, 0, 0.9);
+}
+
+.container-chales h2 {
+    padding: 5%;
+    font-size: 1.3em;
+}
+
+.container-chales p {
+    padding: 5% 0 0 0;
+}
+
+.container-chales a {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+}
