@@ -1,6 +1,7 @@
 .nav-container {
     padding: 0 6%;
-    height: 12vh;
+    height: 10vh;
+    min-height: 65px;
     background-color: var(--cor-principal);
     display: flex;
     justify-content: space-around;
@@ -13,7 +14,7 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100vw;
 }
 
@@ -26,16 +27,16 @@
     font-family: var(--fonte-conteudo);
     position: relative;
     top: 3px;
-    transition-duration: 0.5s;
 }
 
 .nav-container__item:hover {
+    transition-duration: 0.5s;
     color: var(--cor-destaque);
 }
 
 button {
-    width: 115%;
-    padding: 10% 0;
+    width: 120%;
+    padding: 14% 0;
     border-radius: 8px;
     border: 0;
     background-color: white;
