@@ -6,14 +6,21 @@
 
 .container2 h2 {
     margin-bottom: 5%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     letter-spacing: normal;
 }
 
 .container2 p {
-    margin-bottom: 6%;
+    font-size: 1.05em;
+    margin-bottom: 8%;
     line-height: normal;
     text-align: justify;
+}
+
+.container2__conteudo__texto{
+    border-left: 1px solid white;
+    padding-left: 3%;
+    padding-top: 1%;
 }
 
 .container2__conteudo {
@@ -21,8 +28,6 @@
     margin: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    /* background-color: var(--cor-secundaria); */
-    /* border: 1px groove var(--cor-fonte); */
 }
 
 /* Slide */
