@@ -29,8 +29,8 @@ footer section {
 }
 
 .footer__conteudo2 li a {
-    font-size: .8em;
-    color: gray;
+    font-size: .9em;
+    color: lightslategray;
     text-decoration: none;
 }
 
@@ -39,10 +39,11 @@ footer section {
 }
 
 .footer__conteudo2 p {
+    line-height: normal;
     padding-top: 5%;
-    font-size: .8em;
+    font-size: .9em;
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    color: gray;
+    color: lightslategray;
 }
