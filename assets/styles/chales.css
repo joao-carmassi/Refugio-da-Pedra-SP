@@ -1,0 +1,24 @@
+.fotos-chale {
+    text-align: center;
+}
+
+.fotos-chale h2 {
+    font-size: 1.2em;
+}
+
+.container-imagens {
+    margin-top: 7%;
+}
+
+.container-imagens div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-imagens div img {
+    width: 50%;
+}
+
+.fotos-chale img {
+    width: 100%;
+}
