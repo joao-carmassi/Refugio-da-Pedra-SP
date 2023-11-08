@@ -30,7 +30,7 @@ footer section {
 
 .footer__conteudo2 li a {
     font-size: .9em;
-    color: lightslategray;
+    color: #C0C0C0;
     text-decoration: none;
 }
 
@@ -45,5 +45,5 @@ footer section {
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    color: lightslategray;
+    color: #C0C0C0;
 }
