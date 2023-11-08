@@ -3,7 +3,6 @@ footer section {
 }
 
 .footer__conteudo {
-    margin-bottom: 2%;
     display: flex;
     justify-content: center;
 }
@@ -18,8 +17,29 @@ footer section {
     margin: auto 0;
 }
 
+.footer__conteudo2{
+    margin-top: 3%;
+}
+
+.footer__conteudo2 ul {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer__conteudo2 li a {
+    font-size: .8em;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer__conteudo2 li a:hover {
+    text-decoration: underline;
+}
+
 .footer__conteudo2 p {
-    padding-top: 3%;
+    padding-top: 5%;
     font-size: .8em;
     margin: 0 auto;
     width: 90%;
