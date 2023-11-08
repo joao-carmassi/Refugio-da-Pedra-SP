@@ -1,12 +1,15 @@
 .chales-container1 {
-    text-align: center;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(65,54,5,1) 100%);
     padding-bottom: .1%;
 }
 
+p, li {
+    font-size: 1.1em;
+}
+
 .chales-conteudo {
-    font-size: 1.05em;
+    font-size: 1.1em;
     border-left: 1px solid white;
     padding-left: 3%;
     width: 84%;
@@ -50,8 +53,14 @@
     border-radius: 8px;
 }
 
+.container-chale ul {
+    width: 90%;
+    margin: 3% auto 0 auto;
+    line-height: normal;
+    list-style:inside;
+}
+
 .container-chale a{
-    display: flex;
     justify-content: center;
     text-decoration: none;
     color: var(--cor-destaque);

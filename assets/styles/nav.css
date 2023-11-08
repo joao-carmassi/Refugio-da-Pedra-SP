@@ -21,7 +21,7 @@
 .nav-container__item {
     text-decoration: none;
     color: var(--cor-fonte);
-    font-size: 1.05em;
+    font-size: 1.1em;
     font-weight: 200px;
     text-transform: uppercase;
     font-family: var(--fonte-conteudo);
@@ -43,7 +43,7 @@ button {
     box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
 
 }
 
