@@ -18,7 +18,7 @@
 }
 
 .container2__conteudo__texto{
-    border-left: 1px solid white;
+    border-left: 1px solid var(--cor-fonte);
     padding-left: 3%;
     padding-top: 1%;
     margin-bottom: 5%;
