@@ -4,13 +4,13 @@
     width: 100%;
 }
 
-.container2 h2 {
+.container2__conteudo__texto h2 {
     margin-bottom: 5%;
     font-size: 1.3em;
     letter-spacing: normal;
 }
 
-.container2 p {
+.container2__conteudo__texto p {
     font-size: 1.05em;
     margin-bottom: 8%;
     line-height: normal;

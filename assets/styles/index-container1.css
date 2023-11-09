@@ -9,11 +9,11 @@
     width: 35%;
 }
 
-.container1 article {
+.container1__conteudo {
     display: flex;
 }
 
-.container1-logo {
+.container1__conteudo__logo {
     margin: 0 auto;
     margin-top: 3%;
     display: flex;

@@ -1,7 +1,7 @@
 @import url(./nav.css);
-@import url(./container1.css);
-@import url(./container2.css);
-@import url(./container3.css);
+@import url(./index-container1.css);
+@import url(./index-container2.css);
+@import url(./index-container3.css);
 @import url(./chales-container1.css);
 @import url(./chales.css);
 @import url(footer.css);
@@ -48,7 +48,7 @@ hr {
     margin: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 7680px) {
 
     /* Nav */
     .nav-container {

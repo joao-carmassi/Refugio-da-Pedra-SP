@@ -4,11 +4,12 @@
     padding-bottom: .1%;
 }
 
-p, li {
+.chales-container1__div__blocos-dos-chales__container-chale p, 
+.chales-container1__div__blocos-dos-chales__container-chale li {
     font-size: 1.05em;
 }
 
-.chales-conteudo {
+.chales-container1__div__conteudo {
     font-size: 1.05em;
     border-left: 1px solid white;
     padding-left: 3%;
@@ -18,7 +19,7 @@ p, li {
     line-height: normal;
 }
 
-.container-chale {
+.chales-container1__div__blocos-dos-chales__container-chale {
     width: 90%;
     margin: 6% auto 8% auto;
     background-color: var(--cor-secundaria);
@@ -26,16 +27,16 @@ p, li {
     border-radius: 8px;
 }
 
-.container-chale:last-child {
+.chales-container1__div__blocos-dos-chales__container-chale:last-child {
     margin: 6% auto 5.5% auto;
 }
 
-.container-chale h2 {
+.chales-container1__div__blocos-dos-chales__container-chale h2 {
     padding: 5%;
     font-size: 1.3em;
 }
 
-.container-chale p {
+.chales-container1__div__blocos-dos-chales__container-chale p {
     padding: 3.5% 0 0 0;
     width: 90%;
     margin: 0 auto;
@@ -43,24 +44,24 @@ p, li {
     line-height: normal;
 }
 
-.container-chale>.swiper {
+.chales-container1__div__blocos-dos-chales__container-chale>.swiper {
     width: 90%;
     border-radius: 8px;
 }
 
-.container-chale>.swiper img {
+.chales-container1__div__blocos-dos-chales__container-chale>.swiper img {
     width: 100%;
     border-radius: 8px;
 }
 
-.container-chale ul {
+.chales-container1__div__blocos-dos-chales__container-chale ul {
     width: 90%;
     margin: 3% auto 0 auto;
     line-height: normal;
     list-style:inside;
 }
 
-.container-chale a{
+.chales-container1__div__blocos-dos-chales__container-chale a{
     justify-content: center;
     text-decoration: none;
     color: var(--cor-destaque);
@@ -72,7 +73,7 @@ p, li {
     border: 1px solid var(--cor-destaque);
 }
 
-.container-chale a:hover {
+.chales-container1__div__blocos-dos-chales__container-chale a:hover {
     transition-duration: .5s;
     background-color: var(--cor-destaque);
     color: var(--cor-fonte);
