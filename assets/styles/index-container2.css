@@ -6,12 +6,12 @@
 
 .container2__conteudo__texto h2 {
     margin-bottom: 5%;
-    font-size: 1.3em;
+    font-size: var(--tamanho-fonte-titulo);
     letter-spacing: normal;
 }
 
 .container2__conteudo__texto p {
-    font-size: 1.05em;
+    font-size: var(--tamanho-fonte-conteudo);
     margin-bottom: 8%;
     line-height: normal;
     text-align: justify;

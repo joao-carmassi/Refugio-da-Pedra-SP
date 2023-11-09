@@ -6,11 +6,11 @@
 
 .chales-container1__div__blocos-dos-chales__container-chale p, 
 .chales-container1__div__blocos-dos-chales__container-chale li {
-    font-size: 1.05em;
+    font-size: var(--tamnho-fonte-conteudo);
 }
 
 .chales-container1__div__conteudo {
-    font-size: 1.05em;
+    font-size: var(--tamnho-fonte-conteudo);
     border-left: 1px solid white;
     padding-left: 3%;
     width: 84%;
@@ -33,7 +33,7 @@
 
 .chales-container1__div__blocos-dos-chales__container-chale h2 {
     padding: 5%;
-    font-size: 1.3em;
+    font-size: var(--tamnho-fonte-titulo);
 }
 
 .chales-container1__div__blocos-dos-chales__container-chale p {

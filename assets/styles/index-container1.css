@@ -23,7 +23,7 @@
 
 .nome-pousada {
     font-family: var(--fonte-titulo);
-    font-size: 2em;
+    font-size: var(--tamanho-fonte-nome-pousada);
     text-shadow: 0.1em 0.1em 0.2em black;
     margin: .3em 0;
 }

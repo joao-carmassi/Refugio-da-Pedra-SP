@@ -35,6 +35,21 @@
     --cor-destaque: #a78d0d;
     --cor-fonte: white;
     --swiper-navigation-color: var(--cor-destaque);
+
+    --tamanho-fonte-nav: 1.1em;
+    --tamanho-fonte-reservar: 1.1em;
+    --tamanho-fonte-nome-pousada: 2em;
+    --tamanho-fonte-titulo: 1.3em;
+    --tamanho-fonte-conteudo: 1.05em;
+    --tamanho-fonte-footer: .9em;
+
+    /* @media 768px */
+    /* --tamanho-fonte-nav: 1.1em;
+    --tamanho-fonte-reservar: 1.1em;
+    --tamanho-fonte-nome-pousada: 2em;
+    --tamanho-fonte-titulo: 1.3em;
+    --tamanho-fonte-conteudo: 1.05em;
+    --tamanho-fonte-footer: .9em; */
 }
 
 body {
@@ -48,71 +63,37 @@ hr {
     margin: 0;
 }
 
-@media screen and (min-width: 7680px) {
+@media screen and (min-width: 768px) {
 
     /* Nav */
-    .nav-container {
-        width: 75vw;
-        padding-top: 1%;
+    .nav-container__lista button {
+        width: 120%;
+        padding: 13% 0;
     }
-    
-
-    .nav-container__item {
-        font-size: 1.8em;
-    }
-
-    button {
-        font-size: 1.5em;
-    }
-
-    /* Fonte */
-    .nome-pousada {
-        font-size: 2.9em;
-    }
-
-    .container2__conteudo__texto,
-    .chales-conteudo,
-    .container-chale p,
-    .container-chale ul,
-    .container-chale a {
-        font-size: 1.3em;
-    }
-
-    .container-chale h2 {
-        font-size: 1.7em;
-    }
-
-    /* Index */
-
 
     /* Chales */
-    .chales-conteudo {
-        margin-top: 2%;
+    .chales-container1__div {
+        margin-bottom: 3%;
     }
 
-    .blocos-dos-chales {
+    .chales-container1__div__conteudo {
+        margin-bottom: 4%;
+    }
+
+    .chales-container1__div__blocos-dos-chales {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .container-chale {
-        width: 45%;
-        margin-bottom: 0%;
+    .chales-container1__div__blocos-dos-chales__container-chale {
+        width: 44%;
+        margin: 2% 2% 2% 2%;
     }
 
-    .container-chale:nth-child(3),
-    .container-chale:last-child {
-        margin: 5% auto 3% auto;
-    }
-
-    .container-chale a {
-        width: 41%;
-    }
-
-    /* Footer */
-    .footer__conteudo2 {
-        font-size: 1.2em;
+    .chales-container1__div__blocos-dos-chales__container-chale:last-child {
+        margin: 2% 2% 2% 2%;
     }
 }
 

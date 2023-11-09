@@ -4,7 +4,7 @@
 
 .fotos-chale h2 {
     margin-top: 5%;
-    font-size: 1.2em;
+    font-size: var(--tamanho-fonte-titulo);
 }
 
 .container-imagens {
