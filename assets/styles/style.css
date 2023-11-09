@@ -6,14 +6,17 @@
 @import url(./chales.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 @font-face {
     font-family: 'soria';
     src: url(../fonts/soria-font.ttf) format(truetype), url(../fonts/Vercetti-Regular.otf) format(opentype);
 }
+
 @font-face {
     font-family: 'vercetti';
     src: url(../fonts/Vercetti-Regular.ttf) format(truetype);
 }
+
 @font-face {
     font-family: 'summer';
     src: url(../fonts/Summer\ Dream\ Sans\ DEMO\ .ttf) format(truetype);
@@ -44,3 +47,77 @@ body {
 hr {
     margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+
+    /* Nav */
+    .nav-container {
+        width: 75vw;
+        padding-top: 1%;
+    }
+    
+
+    .nav-container__item {
+        font-size: 1.8em;
+    }
+
+    button {
+        font-size: 1.5em;
+    }
+
+    /* Fonte */
+    .nome-pousada {
+        font-size: 2.9em;
+    }
+
+    .container2__conteudo__texto,
+    .chales-conteudo,
+    .container-chale p,
+    .container-chale ul,
+    .container-chale a {
+        font-size: 1.3em;
+    }
+
+    .container-chale h2 {
+        font-size: 1.7em;
+    }
+
+    /* Index */
+
+
+    /* Chales */
+    .chales-conteudo {
+        margin-top: 2%;
+    }
+
+    .blocos-dos-chales {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .container-chale {
+        width: 45%;
+        margin-bottom: 0%;
+    }
+
+    .container-chale:nth-child(3),
+    .container-chale:last-child {
+        margin: 5% auto 3% auto;
+    }
+
+    .container-chale a {
+        width: 41%;
+    }
+
+    /* Footer */
+    .footer__conteudo2 {
+        font-size: 1.2em;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {}
+
+
+@media screen and (min-width: 1366px) {}
