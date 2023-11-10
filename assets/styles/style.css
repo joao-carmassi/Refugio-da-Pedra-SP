@@ -32,9 +32,8 @@
 
     --cor-principal: black;
     --cor-secundaria: #111111;
-    --cor-destaque: #a78d0d;
+    --cor-destaque: #bc9d02;
     --cor-fonte: white;
-    --swiper-navigation-color: var(--cor-destaque);
 
     --tamanho-fonte-nav: 1.1em;
     --tamanho-fonte-reservar: 1.1em;
@@ -44,12 +43,12 @@
     --tamanho-fonte-footer: .9em;
 
     /* @media 768px */
-    /* --tamanho-fonte-nav: 1.1em;
-    --tamanho-fonte-reservar: 1.1em;
-    --tamanho-fonte-nome-pousada: 2em;
-    --tamanho-fonte-titulo: 1.3em;
-    --tamanho-fonte-conteudo: 1.05em;
-    --tamanho-fonte-footer: .9em; */
+    --tamanho-fonte-nav-768: 2em;
+    --tamanho-fonte-reservar-768: 1.9em;
+    --tamanho-fonte-nome-pousada-768: 4em;
+    --tamanho-fonte-titulo-768: 2em;
+    --tamanho-fonte-conteudo-768: 1.7em;
+    --tamanho-fonte-footer-768: 1.5em;
 }
 
 body {
@@ -66,9 +65,43 @@ hr {
 @media screen and (min-width: 768px) {
 
     /* Nav */
+
+    /* Font-Size */
+    .nav-container__item {
+        font-size: var(--tamanho-fonte-nav-768);
+    }
+
     .nav-container__lista button {
+        font-size: var(--tamanho-fonte-reservar-768);
         width: 120%;
         padding: 13% 0;
+    }
+
+    .nome-pousada {
+        font-size: var(--tamanho-fonte-nome-pousada-768);
+    }
+
+    .container2__conteudo__texto h2,
+    .chales-container1__div__blocos-dos-chales__container-chale h2,
+    .fotos-chale h2 {
+        font-size: var(--tamanho-fonte-titulo-768);
+    }
+
+    .container2__conteudo__texto p,
+    .chales-container1__div__blocos-dos-chales__container-chale p,
+    .chales-container1__div__blocos-dos-chales__container-chale li,
+    .chales-container1__div__conteudo,
+    .chales-container1__div__blocos-dos-chales__container-chale a {
+        font-size: var(--tamanho-fonte-conteudo-768);
+    }
+    
+    .chales-container1__div__blocos-dos-chales__container-chale a {
+        width: 50%;
+    }
+    
+    .container-footer__conteudo2 li a,
+    .container-footer__conteudo2 p {
+        font-size: var(--tamanho-fonte-footer-768);
     }
 
     /* Chales */

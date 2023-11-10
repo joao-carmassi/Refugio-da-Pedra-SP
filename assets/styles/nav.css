@@ -7,6 +7,7 @@
 
 .nav-container__lista {
     height: 23vw;
+    max-height: 140px;
     min-height: 65px;
     background-color: var(--cor-principal);
     display: flex;
@@ -17,6 +18,7 @@
     justify-content: space-between;
     width: 80vw;
     margin: 0 auto;
+    position: relative;
     margin-top: -1px;
 }
 
@@ -41,11 +43,12 @@
     padding: 11% 0;
     border-radius: 8px;
     border: 0;
-    background-color: white;
+    background-color: var(--cor-fonte);
     box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: var(--tamanho-fonte-reservar);
+    color: var(--cor-principal);
 }
 
 .nav-container__lista button:hover {

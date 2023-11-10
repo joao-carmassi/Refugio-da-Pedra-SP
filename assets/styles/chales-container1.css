@@ -1,6 +1,6 @@
 .chales-container1 {
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(65,54,5,1) 100%);
+    background: var(--cor-principal);
+    background: linear-gradient(180deg, var(--cor-principal) 0%, var(--cor-destaque) 100%);
     padding-bottom: .1%;
 }
 
@@ -11,7 +11,7 @@
 
 .chales-container1__div__conteudo {
     font-size: var(--tamnho-fonte-conteudo);
-    border-left: 1px solid white;
+    border-left: 1px solid var(--cor-fonte);
     padding-left: 3%;
     width: 84%;
     text-align: justify;
@@ -61,7 +61,8 @@
     list-style:inside;
 }
 
-.chales-container1__div__blocos-dos-chales__container-chale a{
+.chales-container1__div__blocos-dos-chales__container-chale a {
+    font-size: var(--tamanho-fonte-conteudo);
     justify-content: center;
     text-decoration: none;
     color: var(--cor-destaque);
@@ -71,6 +72,7 @@
     padding: 5%;
     width: 38%;
     border: 1px solid var(--cor-destaque);
+    text-wrap: nowrap;
 }
 
 .chales-container1__div__blocos-dos-chales__container-chale a:hover {
