@@ -34,6 +34,7 @@
     --cor-secundaria: #111111;
     --cor-destaque: #bc9d02;
     --cor-fonte: white;
+    --cor-footer: #C0C0C0;
 
     --tamanho-fonte-nav: 1.1em;
     --tamanho-fonte-reservar: 1.1em;
@@ -103,35 +104,35 @@ hr {
     .container-footer__conteudo2 p {
         font-size: var(--tamanho-fonte-footer-768);
     }
-
-    /* Chales */
-    .chales-container1__div {
-        margin-bottom: 3%;
-    }
-
-    .chales-container1__div__conteudo {
-        margin-bottom: 4%;
-    }
-
-    .chales-container1__div__blocos-dos-chales {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .chales-container1__div__blocos-dos-chales__container-chale {
-        width: 44%;
-        margin: 2% 2% 2% 2%;
-    }
-
-    .chales-container1__div__blocos-dos-chales__container-chale:last-child {
-        margin: 2% 2% 2% 2%;
-    }
 }
 
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+        /* Chales */
+        .chales-container1__div {
+            margin-bottom: 3%;
+        }
+    
+        .chales-container1__div__conteudo {
+            margin-bottom: 4%;
+        }
+    
+        .chales-container1__div__blocos-dos-chales {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .chales-container1__div__blocos-dos-chales__container-chale {
+            width: 44%;
+            margin: 2% 2% 2% 2%;
+        }
+    
+        .chales-container1__div__blocos-dos-chales__container-chale:last-child {
+            margin: 2% 2% 2% 2%;
+        }
+}
 
 
 @media screen and (min-width: 1366px) {}

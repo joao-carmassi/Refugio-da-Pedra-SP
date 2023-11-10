@@ -1,6 +1,5 @@
 .container-footer {
     padding: 4% 0 6% 0;
-    height: 300vh;
 }
 
 .container-footer__conteudo {
@@ -16,6 +15,7 @@
 .container-footer__conteudo h2 {
     color: var(--cor-fonte);
     margin: auto 0;
+    font-size: var(--tamanho-fonte-conteudo-768);
 }
 
 .container-footer__conteudo2{
@@ -31,7 +31,7 @@
 
 .container-footer__conteudo2 li a {
     font-size: var(--tamanho-fonte-footer);
-    color: #C0C0C0;
+    color: var(--cor-footer);
     text-decoration: none;
 }
 
@@ -46,5 +46,5 @@
     margin: 0 auto;
     width: 90%;
     text-align: center;
-    color: #C0C0C0;
+    color: var(--cor-footer);
 }
