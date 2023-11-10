@@ -1,10 +1,17 @@
 .container-footer {
-    padding: 4% 0 6% 0;
+    width: 90%;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    margin: 5% auto;
 }
 
 .container-footer__conteudo {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container-footer__conteudo img {
@@ -14,7 +21,6 @@
 
 .container-footer__conteudo h2 {
     color: var(--cor-fonte);
-    margin: auto 0;
     font-size: var(--tamanho-fonte-conteudo-768);
 }
 
@@ -37,10 +43,7 @@
 
 .container-footer p {
     line-height: normal;
-    padding-top: 5%;
     font-size: var(--tamanho-fonte-footer);
-    margin: 0 auto;
-    width: 90%;
     text-align: center;
     color: var(--cor-footer);
 }
