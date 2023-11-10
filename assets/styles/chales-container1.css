@@ -2,6 +2,13 @@
     background: var(--cor-principal);
     background: linear-gradient(180deg, var(--cor-principal) 0%, var(--cor-destaque) 100%);
     padding-bottom: .1%;
+    margin: auto 0;
+}
+
+.chales-container1__div__blocos-dos-chales__container-chale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .chales-container1__div__blocos-dos-chales__container-chale p, 
