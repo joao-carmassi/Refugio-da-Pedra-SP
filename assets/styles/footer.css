@@ -18,28 +18,24 @@
     font-size: var(--tamanho-fonte-conteudo-768);
 }
 
-.container-footer__conteudo2{
-    margin-top: 4%;
-}
-
-.container-footer__conteudo2 ul {
+.container-footer ul {
     display: flex;
     width: 70%;
     justify-content: space-between;
     margin: 0 auto;
 }
 
-.container-footer__conteudo2 li a {
+.container-footer li a {
     font-size: var(--tamanho-fonte-footer);
     color: var(--cor-footer);
     text-decoration: none;
 }
 
-.container-footer__conteudo2 li a:hover {
+.container-footer li a:hover {
     text-decoration: underline;
 }
 
-.container-footer__conteudo2 p {
+.container-footer p {
     line-height: normal;
     padding-top: 5%;
     font-size: var(--tamanho-fonte-footer);

@@ -44,12 +44,12 @@
     --tamanho-fonte-footer: .9em;
 
     /* @media 768px */
-    --tamanho-fonte-nav-768: 2em;
-    --tamanho-fonte-reservar-768: 1.9em;
+    --tamanho-fonte-nav-768: 1.4em;
+    --tamanho-fonte-reservar-768: 1.3em;
     --tamanho-fonte-nome-pousada-768: 4em;
-    --tamanho-fonte-titulo-768: 2em;
-    --tamanho-fonte-conteudo-768: 1.7em;
-    --tamanho-fonte-footer-768: 1.5em;
+    --tamanho-fonte-titulo-768: 1.3em;
+    --tamanho-fonte-conteudo-768: 1.05em;
+    --tamanho-fonte-footer-768: .9em;
 }
 
 body {
@@ -104,35 +104,35 @@ hr {
     .container-footer__conteudo2 p {
         font-size: var(--tamanho-fonte-footer-768);
     }
+
+            /* Chales */
+            .chales-container1__div {
+                margin-bottom: 3%;
+            }
+        
+            .chales-container1__div__conteudo {
+                margin-bottom: 4%;
+            }
+        
+            .chales-container1__div__blocos-dos-chales {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        
+            .chales-container1__div__blocos-dos-chales__container-chale {
+                width: 44%;
+                margin: 2% 2% 2% 2%;
+            }
+        
+            .chales-container1__div__blocos-dos-chales__container-chale:last-child {
+                margin: 2% 2% 2% 2%;
+            }
 }
 
 
-@media screen and (min-width: 1024px) {
-        /* Chales */
-        .chales-container1__div {
-            margin-bottom: 3%;
-        }
-    
-        .chales-container1__div__conteudo {
-            margin-bottom: 4%;
-        }
-    
-        .chales-container1__div__blocos-dos-chales {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    
-        .chales-container1__div__blocos-dos-chales__container-chale {
-            width: 44%;
-            margin: 2% 2% 2% 2%;
-        }
-    
-        .chales-container1__div__blocos-dos-chales__container-chale:last-child {
-            margin: 2% 2% 2% 2%;
-        }
-}
+@media screen and (min-width: 1024px) {}
 
 
 @media screen and (min-width: 1366px) {}

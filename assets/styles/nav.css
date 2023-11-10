@@ -7,7 +7,7 @@
 
 .nav-container__lista {
     height: 23vw;
-    max-height: 140px;
+    max-height: 120px;
     min-height: 65px;
     background-color: var(--cor-principal);
     display: flex;
