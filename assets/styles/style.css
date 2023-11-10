@@ -39,17 +39,17 @@
     --tamanho-fonte-nav: 1.1em;
     --tamanho-fonte-reservar: 1.1em;
     --tamanho-fonte-nome-pousada: 2em;
-    --tamanho-fonte-titulo: 1.3em;
+    --tamanho-fonte-titulo: 1.375em;
     --tamanho-fonte-conteudo: 1.05em;
-    --tamanho-fonte-footer: .9em;
+    --tamanho-fonte-footer: .8em;
 
     /* @media 768px */
-    --tamanho-fonte-nav-768: 1.4em;
-    --tamanho-fonte-reservar-768: 1.3em;
+    --tamanho-fonte-nav-768: 2em;
+    --tamanho-fonte-reservar-768: 1.7em;
     --tamanho-fonte-nome-pousada-768: 4em;
-    --tamanho-fonte-titulo-768: 1.3em;
-    --tamanho-fonte-conteudo-768: 1.05em;
-    --tamanho-fonte-footer-768: .9em;
+    --tamanho-fonte-titulo-768: 1.8em;
+    --tamanho-fonte-conteudo-768: 1.375em;
+    --tamanho-fonte-footer-768: 1.1em;
 }
 
 body {
@@ -95,40 +95,53 @@ hr {
     .chales-container1__div__blocos-dos-chales__container-chale a {
         font-size: var(--tamanho-fonte-conteudo-768);
     }
-    
+
     .chales-container1__div__blocos-dos-chales__container-chale a {
         width: 50%;
     }
-    
-    .container-footer__conteudo2 li a,
-    .container-footer__conteudo2 p {
+
+    .container-footer li a,
+    .container-footer p {
         font-size: var(--tamanho-fonte-footer-768);
     }
 
-            /* Chales */
-            .chales-container1__div {
-                margin-bottom: 3%;
-            }
-        
-            .chales-container1__div__conteudo {
-                margin-bottom: 4%;
-            }
-        
-            .chales-container1__div__blocos-dos-chales {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-        
-            .chales-container1__div__blocos-dos-chales__container-chale {
-                width: 44%;
-                margin: 2% 2% 2% 2%;
-            }
-        
-            .chales-container1__div__blocos-dos-chales__container-chale:last-child {
-                margin: 2% 2% 2% 2%;
-            }
+    /* Index */
+    .container3 iframe {
+        height: 45vh;
+    }
+
+    /* Chales */
+    .chales-container1__div {
+        margin-bottom: 3%;
+    }
+
+    .chales-container1__div__conteudo {
+        margin-bottom: 4%;
+    }
+
+    .chales-container1__div__blocos-dos-chales {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .chales-container1__div__blocos-dos-chales__container-chale {
+        width: 44%;
+        margin: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+    .chales-container1__div__blocos-dos-chales__container-chale:last-child {
+        margin: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+    /* Footer */
+    .container-footer {
+        width: 80%;
+        height: 25vh;
+        margin: 5% auto;
+        gap: 8%;
+    }
 }
 
 

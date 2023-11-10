@@ -21,12 +21,13 @@
 
 .container-footer__conteudo h2 {
     color: var(--cor-fonte);
-    font-size: var(--tamanho-fonte-conteudo-768);
+    font-size: var(--tamanho-fonte-conteudo);
 }
 
 .container-footer ul {
     display: flex;
     width: 70%;
+    max-width: 300px;
     justify-content: space-between;
     margin: 0 auto;
 }
