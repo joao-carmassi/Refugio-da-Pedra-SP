@@ -44,9 +44,8 @@
 
 /* 3 imagens */
 
-/* .cards {
-    display: flex;
-    flex-direction: column;
+.cards {
+    display: none;
     gap: 15px;
     width: 90%;
     margin: 4% auto 10% auto;
@@ -81,4 +80,4 @@
 .cards:hover>.card:not(:hover) {
     filter: blur(10px);
     transform: scale(0.9, 0.9);
-} */
+}
