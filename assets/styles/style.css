@@ -37,7 +37,7 @@
     --cor-footer: #C0C0C0;
 
     --tamanho-fonte-nav: 1.1em;
-    --tamanho-fonte-reservar: 1.1em;
+    --tamanho-fonte-reservar: 1.3em;
     --tamanho-fonte-nome-pousada: 2em;
     --tamanho-fonte-titulo: 1.375em;
     --tamanho-fonte-conteudo: 1.05em;
@@ -154,25 +154,16 @@ hr {
 
 
 @media screen and (min-width: 1024px) {
+
     /* Nav */
     .nav-container__item {
         text-shadow: 0.1em 0.1em 0.2em black;
     }
 
-    .nav-container__item:hover {
-        color: var(--cor-fonte);
-        border: 2px solid var(--cor-destaque);
-        border-radius: 8px;
-        background-color: var(--cor-destaque);
-        -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
-        box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.5);
-    }
-
     .nav-container__lista {
         background-color: transparent;
     }
-
+    
     /* Container1 */
     .fotos-chale p {
         width: 70%;
@@ -278,14 +269,20 @@ hr {
     }
 
     /* Chales-Container1 */
+    .chales-container1__div__blocos-dos-chales__container-chale a {
+        margin: 5%;
+        padding: 5%;
+        width: 90%;
+    }
 
     .chales-container1__div__conteudo {
         width: 30%;
         display: flex;
         align-items: center;
+        justify-content: center;
         padding-left: 1%;
         text-align: justify;
-        margin: auto 0 auto 2.5%;
+        margin: auto;
         line-height: normal;
     }
 
@@ -321,7 +318,7 @@ hr {
     /* Chales */
     .fotos-chale h2 {
         margin-top: 3%;
-    }    
+    }
 
     .img-50pc {
         width: 50%;
