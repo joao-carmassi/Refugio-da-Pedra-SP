@@ -92,7 +92,8 @@ hr {
     .chales-container1__div__blocos-dos-chales__container-chale p,
     .chales-container1__div__blocos-dos-chales__container-chale li,
     .chales-container1__div__conteudo,
-    .chales-container1__div__blocos-dos-chales__container-chale a {
+    .chales-container1__div__blocos-dos-chales__container-chale a,
+    .fotos-chale p {
         font-size: var(--tamanho-fonte-conteudo-768);
     }
 
@@ -110,7 +111,7 @@ hr {
         height: 45vh;
     }
 
-    /* Chales */
+    /* Chales-container1*/
     .chales-container1__div {
         margin-bottom: 3%;
     }
@@ -153,7 +154,6 @@ hr {
 
 
 @media screen and (min-width: 1024px) {
-
     /* Nav */
     .nav-container__item {
         text-shadow: 0.1em 0.1em 0.2em black;
@@ -174,6 +174,15 @@ hr {
     }
 
     /* Container1 */
+    .fotos-chale p {
+        width: 70%;
+        margin: 1% auto 0 auto;
+    }
+
+    .display-block-1024 {
+        display: block;
+    }
+
     .video-pousada {
         top: 0px;
     }
@@ -268,17 +277,67 @@ hr {
         height: 60vh;
     }
 
-    /* Chales-container1 */
-    .container-imagens div img {
-        width: 25%;
+    /* Chales-Container1 */
+
+    .chales-container1__div__conteudo {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        padding-left: 1%;
+        text-align: justify;
+        margin: auto 0 auto 2.5%;
+        line-height: normal;
     }
 
-    .fotos-chale img {
-        width: 50%;
+    .chales-container1__div {
+        margin-bottom: 3%;
+    }
+
+    .chales-container1__div__blocos-dos-chales {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .chales-container1__div__blocos-dos-chales__container-chale {
+        width: 30%;
+        margin: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+    .chales-container1__div__blocos-dos-chales__container-chale:nth-child(2) {
+        margin: 1.5% 1.5% 1.5% 2%;
+
+    }
+
+    .chales-container1__div__blocos-dos-chales__container-chale:last-child {
+        margin: 1.5% 1.5% 1.5% 1.5%;
+    }
+
+    .display-none-1024 {
+        display: none;
     }
 
     /* Chales */
-    
+    .fotos-chale h2 {
+        margin-top: 3%;
+    }    
+
+    .img-50pc {
+        width: 50%;
+    }
+
+    .img-25pc {
+        width: 25%;
+    }
+
+    .img-66pc {
+        width: 66.666%;
+    }
+
+    .img-33pc {
+        width: 33.333%;
+    }
 
     /* Footer */
     .container-footer {
@@ -287,4 +346,12 @@ hr {
 }
 
 
-@media screen and (min-width: 1366px) {}
+@media screen and (min-width: 1445px) {
+    .display-none-1445 {
+        display: none;
+    }
+
+    .display-block-1445 {
+        display: block;
+    }
+}

@@ -11,15 +11,20 @@
     margin-top: 6%;
 }
 
-.container-imagens div {
+.container-imagens {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.container-imagens div img {
+.img-50 {
     width: 50%;
 }
 
-.fotos-chale img {
+.img-100 {
     width: 100%;
+}
+
+.display-none-768 {
+    display: none;
 }
