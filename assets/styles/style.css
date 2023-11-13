@@ -268,14 +268,17 @@ hr {
         height: 60vh;
     }
 
-    /* Chales */
+    /* Chales-container1 */
     .container-imagens div img {
         width: 25%;
     }
-    
+
     .fotos-chale img {
         width: 50%;
     }
+
+    /* Chales */
+    
 
     /* Footer */
     .container-footer {
