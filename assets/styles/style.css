@@ -4,6 +4,7 @@
 @import url(./index-container3.css);
 @import url(./chales-container1.css);
 @import url(./chales.css);
+@import url(./info-container1.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
@@ -45,7 +46,7 @@
 
     /* @media 768px */
     --tamanho-fonte-nav-768: 2em;
-    --tamanho-fonte-reservar-768: 1.7em;
+    --tamanho-fonte-reservar-768: 2em;
     --tamanho-fonte-nome-pousada-768: 4em;
     --tamanho-fonte-titulo-768: 1.8em;
     --tamanho-fonte-conteudo-768: 1.375em;
@@ -84,7 +85,9 @@ hr {
 
     .container2__conteudo__texto h2,
     .chales-container1__div__blocos-dos-chales__container-chale h2,
-    .fotos-chale h2 {
+    .fotos-chale h2,
+    .info-container2__lista__itens h2,
+    .info-contaier1 h2 {
         font-size: var(--tamanho-fonte-titulo-768);
     }
 
@@ -93,7 +96,9 @@ hr {
     .chales-container1__div__blocos-dos-chales__container-chale li,
     .chales-container1__div__conteudo,
     .chales-container1__div__blocos-dos-chales__container-chale a,
-    .fotos-chale p {
+    .fotos-chale p,
+    .info-container2__lista__itens p,
+    .info-contaier1 p {
         font-size: var(--tamanho-fonte-conteudo-768);
     }
 
@@ -136,6 +141,11 @@ hr {
         margin: 1.5% 1.5% 1.5% 1.5%;
     }
 
+    /* Info */
+    .info-container2__lista__itens {
+        padding: 3%;
+    }
+
     /* Footer */
     .container-footer {
         width: 80%;
@@ -163,11 +173,13 @@ hr {
     .nav-container__lista {
         background-color: transparent;
     }
-    
+
     /* Container1 */
     .fotos-chale p {
-        width: 70%;
+        padding-bottom: 1%;
+        width: 65%;
         margin: 1% auto 0 auto;
+        border-bottom: 2px dotted white;
     }
 
     .display-block-1024 {
@@ -334,6 +346,16 @@ hr {
 
     .img-33pc {
         width: 33.333%;
+    }
+
+    /* Info */
+
+    .img-33 {
+        width: 33.333%;
+    }
+
+    .info-contaier2 {
+        width: 70%;
     }
 
     /* Footer */
