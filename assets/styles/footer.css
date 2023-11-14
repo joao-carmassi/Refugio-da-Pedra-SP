@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .container-footer__conteudo img {
