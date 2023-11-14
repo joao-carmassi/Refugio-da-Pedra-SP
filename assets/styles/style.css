@@ -72,7 +72,7 @@ hr {
         font-size: var(--tamanho-fonte-nav-768);
     }
 
-    .nav-container__lista button {
+    .reservar {
         font-size: var(--tamanho-fonte-reservar-768);
         width: 120%;
         padding: 13% 0;
@@ -147,6 +147,14 @@ hr {
     }
 
     /* Footer */
+    .container-footer__conteudo {
+        width: 40%;
+    }
+    
+    .container-footer__conteudo img {
+        width: 20%;
+    }
+
     .container-footer {
         width: 80%;
         height: 30vh;
@@ -362,6 +370,15 @@ hr {
     .container-footer {
         height: 40vh;
     }
+
+    .container-footer__conteudo {
+        width: 30%;
+    }
+    
+    .container-footer__conteudo img {
+        width: 20%;
+    }
+
 }
 
 
@@ -372,5 +389,13 @@ hr {
 
     .display-block-1445 {
         display: block;
+    }
+
+    .container-footer__conteudo {
+        width: 25%;
+    }
+    
+    .container-footer__conteudo img {
+        width: 30%;
     }
 }

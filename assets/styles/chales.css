@@ -28,3 +28,8 @@
 .display-none-768 {
     display: none;
 }
+
+.nome-chale-footer {
+    padding: 2%;
+    text-align: end;
+}

@@ -13,10 +13,12 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .container-footer__conteudo img {
-    width: 10%;
+    width: 20%;
     margin-right: 2%;
 }
 
