@@ -5,6 +5,7 @@
 @import url(./chales-container1.css);
 @import url(./chales.css);
 @import url(./info-container1.css);
+@import url(./info-container2.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
@@ -65,6 +66,7 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+
     /* Font-Size */
     .nav-container__item {
         font-size: var(--tamanho-fonte-nav-768);
@@ -84,7 +86,8 @@ hr {
     .chales-container1__div__blocos-dos-chales__container-chale h2,
     .fotos-chale h2,
     .info-container2__lista__itens h2,
-    .info-contaier1 h2 {
+    .info-contaier1 h2,
+    .info-contaier2 h2 {
         font-size: var(--tamanho-fonte-titulo-768);
     }
 
@@ -345,11 +348,16 @@ hr {
         width: 33.333%;
     }
 
-    /* Info */
+    /* Info-container1 */
     .img-33 {
         width: 33.333%;
     }
-    
+
+    /* Info-container2 */
+    .info-container2__lista {
+        display: flex;
+    }
+
     /* Footer */
     .container-footer {
         height: 40vh;
