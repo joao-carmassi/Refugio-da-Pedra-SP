@@ -72,7 +72,7 @@ hr {
         font-size: var(--tamanho-fonte-nav-768);
     }
 
-    .reservar {
+    .button {
         font-size: var(--tamanho-fonte-reservar-768);
         width: 120%;
         padding: 13% 0;
