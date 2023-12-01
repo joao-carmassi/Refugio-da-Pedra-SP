@@ -1,6 +1,7 @@
 .container-footer {
     width: 90%;
     height: 38vh;
+    min-height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +26,7 @@
 .container-footer__conteudo h2 {
     color: var(--cor-fonte);
     font-size: var(--tamanho-fonte-conteudo);
+    text-wrap: nowrap;
 }
 
 .container-footer ul {
