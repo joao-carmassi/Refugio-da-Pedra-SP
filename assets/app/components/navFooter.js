@@ -2,14 +2,16 @@ export default class NavFooter {
     constructor(paginas) {
         this.link = window.location.href;
         this.body = document.querySelector("body");
+        this.main = document.querySelector("main");
         this.pages = paginas;
         this.adicionaHeaderFooter();
     }
     header() {
         const html = `
       <nav
-        class="max-w-[85rem] gap-5 w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        class="w-full bg-white fixed top-0 dark:bg-neutral-900 left-1/2 -translate-x-1/2 z-50"
       >
+        <div class="max-w-[85rem] gap-5 py-2 px-4 sm:flex sm:items-center sm:justify-between mx-auto dark:bg-neutral-900">
         <div class="flex items-center justify-between">
           <a
             class="flex-none text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80"
@@ -101,6 +103,7 @@ export default class NavFooter {
         >
           Reservar
         </a>
+        </div>
       </nav>
     `;
         const header = document.createElement("header");
@@ -216,9 +219,10 @@ export default class NavFooter {
         return footer;
     }
     adicionaHeaderFooter() {
-        var _a, _b, _c;
+        var _a, _b, _c, _d;
         (_a = this.body) === null || _a === void 0 ? void 0 : _a.prepend(this.header());
         (_b = this.body) === null || _b === void 0 ? void 0 : _b.append(this.footer());
         (_c = this.body) === null || _c === void 0 ? void 0 : _c.classList.add("max-w-[150rem]", "mx-auto");
+        (_d = this.main) === null || _d === void 0 ? void 0 : _d.classList.add("mt-10");
     }
 }
