@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html
+  class="max-h-100 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+  lang="pt-br"
+  data-theme="light"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/app/output.css" />
+    <script type="module" src="./assets/app/main.js" defer></script>
+    <script
+      type="module"
+      src="./assets/app/controller/chales.js"
+      defer
+    ></script>
+    <script src="./assets/preline.js" defer></script>
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/" />
+    <title>Refúgio da Pedra SP</title>
+  </head>
+  <body class="dark:bg-neutral-900">
+    <main>
+      <section class="py-4 px-4 min-h-screen lg:px-36">
+        <ul
+          id="listaChales"
+          class="grid p-5 md:p-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 grid-flow-row w-full h-full"
+        >
+          <li>
+            <div
+              class="flex flex-col bg-white border border-gray-200 shadow-2xl dark:shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+            >
+              <!-- Slider -->
+              <div
+                data-hs-carousel='{
+  "isInfiniteLoop": true,
+  "loadingClasses": "opacity-0",
+  "dotsItemClasses": "hs-carousel-active:bg-yellow-500 hs-carousel-active:border-yellow-500 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-yellow-500 dark:hs-carousel-active:border-yellow-500"
+}'
+                class="relative"
+              >
+                <div
+                  class="hs-carousel relative overflow-hidden w-full min-h-72 bg-white rounded-lg rounded-b-none"
+                >
+                  <div
+                    class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0"
+                  >
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-6.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-8.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-9.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-12.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-13.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-14.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-15.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-16.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/cabana/refugio-17.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 start-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m15 18-6-6 6-6"></path>
+                    </svg>
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button
+                  type="button"
+                  class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 end-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="sr-only">Next</span>
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </span>
+                </button>
+
+                <div
+                  class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 gap-x-2"
+                ></div>
+              </div>
+              <!-- End Slider -->
+              <div id="cabana" class="containerInfoChale p-4 md:p-5">
+                <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                  Chale
+                </h3>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                  Capacidade
+                </p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Camas</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Banheiro</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Pet</p>
+                <a
+                  class="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none"
+                  href="#"
+                >
+                  Ver mais
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col bg-white border border-gray-200 shadow-2xl dark:shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+            >
+              <!-- Slider -->
+              <div
+                data-hs-carousel='{
+  "isInfiniteLoop": true,
+  "loadingClasses": "opacity-0",
+  "dotsItemClasses": "hs-carousel-active:bg-yellow-500 hs-carousel-active:border-yellow-500 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-yellow-500 dark:hs-carousel-active:border-yellow-500"
+}'
+                class="relative"
+              >
+                <div
+                  class="hs-carousel relative overflow-hidden w-full min-h-72 bg-white rounded-lg rounded-b-none"
+                >
+                  <div
+                    class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0"
+                  >
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-2.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-4.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-6.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-8.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-10.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/jade/refugio-16.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 start-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m15 18-6-6 6-6"></path>
+                    </svg>
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button
+                  type="button"
+                  class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 end-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="sr-only">Next</span>
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </span>
+                </button>
+
+                <div
+                  class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 gap-x-2"
+                ></div>
+              </div>
+              <!-- End Slider -->
+              <div id="jade" class="containerInfoChale p-4 md:p-5">
+                <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                  Chale
+                </h3>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                  Capacidade
+                </p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Camas</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Banheiro</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Pet</p>
+                <a
+                  class="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none"
+                  href="#"
+                >
+                  Ver mais
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col bg-white border border-gray-200 shadow-2xl dark:shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+            >
+              <!-- Slider -->
+              <div
+                data-hs-carousel='{
+  "isInfiniteLoop": true,
+  "loadingClasses": "opacity-0",
+  "dotsItemClasses": "hs-carousel-active:bg-yellow-500 hs-carousel-active:border-yellow-500 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-yellow-500 dark:hs-carousel-active:border-yellow-500"
+}'
+                class="relative"
+              >
+                <div
+                  class="hs-carousel relative overflow-hidden w-full min-h-72 bg-white rounded-lg rounded-b-none"
+                >
+                  <div
+                    class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0"
+                  >
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-1.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-5.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-6.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-7.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-9.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-10.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-17.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/esmeralda/refugio-19.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 start-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m15 18-6-6 6-6"></path>
+                    </svg>
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button
+                  type="button"
+                  class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 end-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="sr-only">Next</span>
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </span>
+                </button>
+
+                <div
+                  class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 gap-x-2"
+                ></div>
+              </div>
+              <!-- End Slider -->
+              <div id="esmeralda" class="containerInfoChale p-4 md:p-5">
+                <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                  Chale
+                </h3>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                  Capacidade
+                </p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Camas</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Banheiro</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Pet</p>
+                <a
+                  class="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none"
+                  href="#"
+                >
+                  Ver mais
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="flex flex-col bg-white border border-gray-200 shadow-2xl dark:shadow-2xs rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70"
+            >
+              <!-- Slider -->
+              <div
+                data-hs-carousel='{
+  "isInfiniteLoop": true,
+  "loadingClasses": "opacity-0",
+  "dotsItemClasses": "hs-carousel-active:bg-yellow-500 hs-carousel-active:border-yellow-500 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-yellow-500 dark:hs-carousel-active:border-yellow-500"
+}'
+                class="relative"
+              >
+                <div
+                  class="hs-carousel relative overflow-hidden w-full min-h-72 bg-white rounded-lg rounded-b-none"
+                >
+                  <div
+                    class="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0"
+                  >
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-1.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-3.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-4.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-5.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-6.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="hs-carousel-slide">
+                      <div
+                        class="flex justify-center h-full bg-gray-100 dark:bg-neutral-900"
+                      >
+                        <img
+                          class="w-full object-cover object-center"
+                          loading="lazy"
+                          src="./assets/img/chales/turmalina/refugio-9.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 start-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m15 18-6-6 6-6"></path>
+                    </svg>
+                  </span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button
+                  type="button"
+                  class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default absolute top-1/2 end-2 inline-flex justify-center items-center size-10 bg-white border border-gray-100 text-gray-800 rounded-full shadow-2xs hover:bg-gray-100 -translate-y-1/2 focus:outline-hidden"
+                >
+                  <span class="sr-only">Next</span>
+                  <span class="text-2xl" aria-hidden="true">
+                    <svg
+                      class="shrink-0 size-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+                  </span>
+                </button>
+
+                <div
+                  class="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 gap-x-2"
+                ></div>
+              </div>
+              <!-- End Slider -->
+              <div id="turmalina" class="containerInfoChale p-4 md:p-5">
+                <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                  Chale
+                </h3>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                  Capacidade
+                </p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Camas</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Banheiro</p>
+                <p class="mt-1 text-gray-500 dark:text-neutral-400">Pet</p>
+                <a
+                  class="mt-2 py-2 px-3 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none"
+                  href="#"
+                >
+                  Ver mais
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

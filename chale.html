@@ -1,0 +1,90 @@
+<html
+  class="max-h-100 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+  lang="pt-br"
+  data-theme="light"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/app/output.css" />
+    <script type="module" src="./assets/app/controller/chale.js" defer></script>
+    <script type="module" src="./assets/app/main.js" defer></script>
+    <script src="./assets/preline.js" defer></script>
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/" />
+    <title>Refúgio da Pedra SP</title>
+  </head>
+  <body class="dark:bg-neutral-900">
+    <main class="min-h-svh">
+      <section class="px-4 lg:w-3/5 mx-auto">
+        <h1
+          id="nomeChale"
+          class="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white mb-2"
+        >
+          Chale
+        </h1>
+      </section>
+      <section id="banner" class="px-4 lg:w-3/5 mx-auto pb-5">
+        <div class="w-full h-full bg-gray-500"></div>
+      </section>
+      <section class="px-4 lg:w-3/5 my-5 mx-auto pb-5">
+        <h2
+          class="block text-2xl font-bold text-gray-800 mb-5 lg:leading-tight dark:text-white"
+        >
+          O que esse lugar oferece
+        </h2>
+        <div class="block md:hidden">
+          <div class="infocelularInicio grid gap-3"></div>
+          <div
+            id="hs-show-hide-collapse-heading"
+            class="hs-collapse mt-5 hidden w-full overflow-hidden transition-[height] duration-300"
+            aria-labelledby="hs-show-hide-collapse"
+          >
+            <div class="infocelularFim grid gap-5"></div>
+          </div>
+          <p class="mt-2">
+            <button
+              type="button"
+              class="hs-collapse-toggle inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-yellow-500 decoration-2 hover:text-yellow-600 hover:underline focus:outline-hidden focus:underline focus:text-yellow-600 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-400 dark:hover:text-yellow-500 dark:focus:text-yellow-500"
+              id="hs-show-hide-collapse"
+              aria-expanded="false"
+              aria-controls="hs-show-hide-collapse-heading"
+              data-hs-collapse="#hs-show-hide-collapse-heading"
+            >
+              <span class="hs-collapse-open:hidden">Read more</span>
+              <span class="hs-collapse-open:block hidden">Read less</span>
+              <svg
+                class="hs-collapse-open:rotate-180 shrink-0 size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
+            </button>
+          </p>
+        </div>
+        <div
+          id="infoChale"
+          class="gap-5 hidden md:grid md:grid-cols-2 grid-flow-row"
+        ></div>
+      </section>
+      <section class="px-4 lg:w-3/5 mx-auto">
+        <h2
+          class="text-2xl font-bold text-gray-800 mb-5 lg:leading-tight dark:text-white"
+        >
+          Fotografias
+        </h2>
+        <div
+          id="containerImgs"
+          class="columns-1 md:columns-2 lg:columns-3"
+        ></div>
+      </section>
+    </main>
+  </body>
+</html>
