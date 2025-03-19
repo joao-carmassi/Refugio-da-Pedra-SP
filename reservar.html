@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html
+  class="max-h-100 overflow-y-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+  lang="pt-br"
+  data-theme="light"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/app/output.css" />
+    <script type="module" src="./assets/app/main.js" defer></script>
+    <script
+      type="module"
+      src="./assets/app/controller/reservas.js"
+      defer
+    ></script>
+    <script src="./assets/preline.js" defer></script>
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/" />
+    <title>Refúgio da Pedra SP</title>
+  </head>
+  <body class="dark:bg-neutral-900">
+    <main>
+      <section
+        style="min-height: calc(100svh - 4rem)"
+        class="w-full flex md:bg-gray-200 items-center justify-center"
+      >
+        <div
+          class="md:bg-white md:grid md:grid-cols-1 lg:grid-cols-2 place-items-center w-full md:p-7 gap-10 max-w-[80rem] lg:rounded-4xl lg:shadow-2xl"
+        >
+          <div class="w-full px-10">
+            <form id="form-chale">
+              <h1
+                class="block font-bold mb-5 md:mb-7 text-gray-800 text-3xl lg:leading-tight dark:text-white"
+              >
+                Formulário de reserva
+              </h1>
+              <div class="w-full mb-5 md:mb-7">
+                <label
+                  for="input-nome"
+                  class="block md:text-md font-medium tracking-wide dark:text-white"
+                  >Nome da reserva</label
+                >
+                <input
+                  required
+                  style="transition-duration: 0.3s"
+                  type="text"
+                  id="input-nome"
+                  class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                  placeholder="Seu nome"
+                />
+              </div>
+              <div class="flex gap-5 mb-5 md:mb-7 w-full">
+                <div class="w-full">
+                  <label
+                    for="check-in"
+                    class="block md:text-md font-medium tracking-wide dark:text-white"
+                    >Check-in</label
+                  >
+                  <input
+                    required
+                    style="transition-duration: 0.3s"
+                    type="date"
+                    id="check-in"
+                    class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                    data-placeholder="DD/MM/AAAA"
+                  />
+                </div>
+                <div class="w-full">
+                  <label
+                    for="check-out"
+                    class="block md:text-md font-medium tracking-wide dark:text-white"
+                    >Check-out</label
+                  >
+                  <input
+                    required
+                    style="transition-duration: 0.3s"
+                    type="date"
+                    id="check-out"
+                    class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                    data-placeholder="DD/MM/AAAA"
+                  />
+                </div>
+              </div>
+              <div class="flex gap-5 mb-5 md:mb-7 w-full">
+                <div class="w-full">
+                  <label
+                    for="input-adultos"
+                    class="block md:text-md font-medium tracking-wide dark:text-white"
+                    >Adultos</label
+                  >
+                  <input
+                    min="1"
+                    required
+                    style="transition-duration: 0.3s"
+                    type="number"
+                    id="input-adultos"
+                    placeholder="Número de adultos"
+                    class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                  />
+                </div>
+                <div class="w-full">
+                  <label
+                    for="input-criancas"
+                    class="block md:text-md font-medium tracking-wide dark:text-white"
+                    >Crianças</label
+                  >
+                  <input
+                    min="0"
+                    style="transition-duration: 0.3s"
+                    type="number"
+                    id="input-criancas"
+                    placeholder="Número de crianças"
+                    class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                  />
+                </div>
+              </div>
+              <div class="w-full mb-5 md:mb-7">
+                <label
+                  for="select-chale"
+                  class="block md:text-md font-medium tracking-wide dark:text-white"
+                  >Chalé</label
+                >
+                <select
+                  id="select-chale"
+                  class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300 text-gray-500"
+                >
+                  <option value="" disabled selected>
+                    Selecione seu chalé de interesse
+                  </option>
+                </select>
+              </div>
+              <div class="w-full mb-5 md:mb-7">
+                <label
+                  for="input-pets"
+                  class="block md:text-md font-medium tracking-wide dark:text-white"
+                  >Pets</label
+                >
+                <input
+                  style="transition-duration: 0.3s"
+                  type="number"
+                  id="input-pets"
+                  min="0"
+                  class="shadow-xs border-b-2 focus:outline-0 placeholder:font-semibold font-semibold md:text-lg focus:border-yellow-500 py-1 w-full border-gray-300"
+                  placeholder="Número de pets"
+                />
+              </div>
+              <div class="flex items-center justify-end gap-5">
+                <a
+                  href="https://w.app/0h8blp"
+                  class="py-3 px-4 inline-flex items-center gap-x-2 text-md font-medium rounded-lg border border-gray-500 text-gray-500 hover:border-yellow-500 hover:text-yellow-500 focus:outline-hidden focus:border-yellow-500 focus:text-yellow-500 disabled:opacity-50 disabled:pointer-events-none dark:border-neutral-400 dark:text-neutral-400 dark:hover:text-neutral-300 dark:hover:border-neutral-300"
+                >
+                  Pular formulário
+                </a>
+                <button
+                  type="submit"
+                  class="py-3 px-4 inline-flex items-center gap-x-2 text-md font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none"
+                >
+                  Reservar
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="w-full hidden md:block">
+            <picture>
+              <source
+                media="(max-width: 64rem)"
+                srcset="./assets/img/pousada/geral/refugio-1.webp"
+              />
+              <img
+                class="h-full object-cover object-center lg:aspect-square rounded-3xl"
+                src="./assets/img/pousada/bergolado/refugio-3.webp"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -96,8 +96,7 @@ export default class NavFooter {
           </div>
         </div>
         <a
-          target="_blank"
-          href='https://w.app/0h8blp'
+          href='./reservar.html'
           type="button"
           class="py-3 px-4 items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none hidden md:inline-flex"
         >
@@ -107,7 +106,7 @@ export default class NavFooter {
       </nav>
     `;
         const header = document.createElement("header");
-        header.classList.add("relative", "flex", "flex-wrap", "sm:justify-start", "sm:flex-nowrap", "w-full", "bg-white", "text-sm", "py-3", "dark:bg-neutral-900");
+        header.classList.add("relative", "flex", "flex-wrap", "sm:justify-start", "sm:flex-nowrap", "w-full", "bg-white", "text-sm", "h-4", "items-center", "dark:bg-neutral-900");
         header.innerHTML = html;
         return header;
     }
@@ -223,6 +222,6 @@ export default class NavFooter {
         (_a = this.body) === null || _a === void 0 ? void 0 : _a.prepend(this.header());
         (_b = this.body) === null || _b === void 0 ? void 0 : _b.append(this.footer());
         (_c = this.body) === null || _c === void 0 ? void 0 : _c.classList.add("max-w-[150rem]", "mx-auto");
-        (_d = this.main) === null || _d === void 0 ? void 0 : _d.classList.add("mt-10");
+        (_d = this.main) === null || _d === void 0 ? void 0 : _d.classList.add("mt-12");
     }
 }
