@@ -50,13 +50,17 @@ export default class FormChales {
         };
         const mensagem = `Ola, me chamo *${dadosForm.nome}* e gostaria de fazer uma reserva
 
-*Check-in:* ${dadosForm.checkIn}
-*Check-out:* ${dadosForm.checkOut}
+*Check-in:* ${this.formataData(dadosForm.checkIn)}
+*Check-out:* ${this.formataData(dadosForm.checkOut)}
 *Adultos:* ${dadosForm.adultos}
 ${parseInt(dadosForm.criancas) >= 1 ? `*Crianças:* ${dadosForm.criancas}` : ""}
 ${dadosForm.chale ? `*Chale:* ${dadosForm.chale}` : ""}
 ${parseInt(dadosForm.pets) >= 1 ? `*Pets:* ${dadosForm.pets}` : ""}`;
         window.location.href = `https://api.whatsapp.com/send?phone=5512996148154&text=${encodeURIComponent(mensagem)}`;
         console.log(dadosForm);
+    }
+    formataData(data) {
+        const partes = data.split("-");
+        return `${partes[2]}/${partes[1]}/${partes[0]}`;
     }
 }
