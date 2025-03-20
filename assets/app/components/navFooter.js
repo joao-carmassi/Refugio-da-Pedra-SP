@@ -22,7 +22,6 @@ export default class NavFooter {
           </a>
           <div class="flex gap-3 flex-row items-center">
             <a
-              target="_blank"
               href="./reservar.html"
               class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-hidden focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none md:hidden"
             >
@@ -164,8 +163,8 @@ export default class NavFooter {
           </a>
           <a
             class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-500 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-            href="./reservar.html"
             target="_blank"
+            href="https://w.app/0h8blp"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -188,6 +187,7 @@ export default class NavFooter {
             class="size-8 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-full border border-transparent text-gray-500 hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
             href="https://www.instagram.com/refugiodapedrasp/"
             target="_blank"
+
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
